@@ -1,0 +1,48 @@
+input{
+	display: block;
+	height: 55px; 
+	width: 400px; 
+	margin: 10px; 
+	border-radius: 30px; 
+	border: 1px solid; 
+	font-size: 10pt; 
+	padding: 10px 20px; 
+	background-color: rgba(255, 255, 255, 0.01);
+	outline:  none; 
+}
+body{
+	background-image: url("../imagens/fundo.jpg");
+	background-position: 50% 70%;
+	font-family: arial;
+}
+div#corpo-formulario{
+	width: 420px;
+	margin: 30px auto 0px auto;
+}
+div#corpo-formulario-cad{
+	width: 420px;
+	margin: 00px auto 0px auto;
+}
+div#corpo-formulario h1, #corpo-formulario-cad h1{
+	text-align: center;
+	padding: 20px;
+	display: block;
+}
+
+a{
+	color: white; 
+	text-decoration: none;
+	text-align: center;
+	display: block; 
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+input[type=submit]{
+	 background-color: #FF0066;
+	 border: none; 
+	 cursor: pointer;
+}
